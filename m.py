@@ -11,7 +11,7 @@ from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
 cl = LINETCR.LINE()
-cl.login(token="ใส่โทเคน")
+cl.login(token="EuojzNgu0q9xrHvvAbg4.eOgiHPaTcle4MEVDYzMxja.AidZcbUalFEmdxKxPiCDHkZzNsamGmftF+5lVMBx6Ws=")
 cl.loginResult()
 
 #ki1 = LINETCR.LINE()
@@ -325,13 +325,13 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 mid = cl.getProfile().mid
-Bots = ["ใส่เอมไอดี",mid]
-Self = ["ใส่เอมไอดี",mid]
-admin = "ใส่เอมไอดี"
-admsa = "ใส่เอมไอดี"
-owner = "ใส่เอมไอดี"
-adminMID = "ใส่เอมไอดี"
-Creator="ใส่เอมไอดี"
+Bots = ["u12818886902d08b13899ebddc9999724",mid]
+Self = ["u12818886902d08b13899ebddc9999724",mid]
+admin = "u12818886902d08b13899ebddc9999724"
+admsa = "u12818886902d08b13899ebddc9999724"
+owner = "u12818886902d08b13899ebddc9999724"
+adminMID = "u12818886902d08b13899ebddc9999724"
+Creator="u12818886902d08b13899ebddc9999724"
 wait = {
     "alwayRead":False,
     "detectMention":True,    
