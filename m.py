@@ -11,8 +11,9 @@ from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
 cl = LINETCR.LINE()
-cl.login(token="EuojzNgu0q9xrHvvAbg4.eOgiHPaTcle4MEVDYzMxja.AidZcbUalFEmdxKxPiCDHkZzNsamGmftF+5lVMBx6Ws=")
-cl.loginResult()
+cl.login("Auth Token : " + str(cl.authToken))
+channelToken = cl.getChannelResult()
+cl.log("Channel Token : " + str(channelToken))
 
 #ki1 = LINETCR.LINE()
 #ki1.login(token="EqWUCQVhPZFFZ6GrDBo0.OkriOxgFfKMW2FOdq9cL4a.7xJAO5R+MOIqHomz35m5csPkRoN3ExblHe2/12E3xcY=")
